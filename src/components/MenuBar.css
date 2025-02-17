@@ -1,18 +1,45 @@
 .menu-bar {
     display: flex;
-    height: 60px;
+    height: auto;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.button-circle {
+.menu-icons {
+    display: flex;
+    height: 100%;
+    width: 66%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-icon {
+    width: 30px;
+}
+
+.chat-icon-button {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.settings-icon {
+    width: 30px;
+}
+
+.settings-icon-button {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.live-button-circle {
     display: block;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
     border-style: solid;
     border-width: 2px;
-    border-radius: 27px;
+    border-radius: 50%;
 }
 
 .live-button {
