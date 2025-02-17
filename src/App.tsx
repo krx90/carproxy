@@ -1,7 +1,7 @@
-import ListGroup from './components/ListGroup';
+import MenuBar from './components/MenuBar';
 
 function App() {
-  return <div><ListGroup></ListGroup></div>
+  return <div><MenuBar></MenuBar></div>
 }
 
 
