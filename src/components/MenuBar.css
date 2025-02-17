@@ -1,9 +1,18 @@
 .menu-bar {
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
     display: flex;
-    height: auto;
+    height: 80px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #78A1BB;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 8px 0 rgb(82, 82, 82);
 }
 
 .menu-icons {
@@ -22,6 +31,7 @@
 .chat-icon-button {
     border-radius: 10px;
     padding: 5px;
+    box-shadow: 0 0 8px 0 rgb(82, 82, 82);
 }
 
 .settings-icon {
@@ -31,6 +41,7 @@
 .settings-icon-button {
     border-radius: 10px;
     padding: 5px;
+    box-shadow: 0 0 8px 0 rgb(82, 82, 82);
 }
 
 .live-button-circle {
@@ -40,6 +51,7 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 50%;
+    box-shadow: 0 0 8px 0 rgb(82, 82, 82);
 }
 
 .live-button {
