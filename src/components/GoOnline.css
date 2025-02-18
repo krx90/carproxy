@@ -1,6 +1,13 @@
+
+.page{
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .connected-users {
-    width: auto;
-    margin: auto;
     text-align: center;
     padding: 20px;
 }
@@ -9,4 +16,22 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+}
+
+.button {
+    flex-direction: column;
+    display: flex;
+    margin-top: 70px;
+    background-color: #78A1BB;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #898989;
+    align-items: center;
+}
+
+.button-icon{
+    display: flex;
+    width: 100px;
+    margin-bottom: 10px;
 }

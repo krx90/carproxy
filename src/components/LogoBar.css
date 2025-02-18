@@ -1,0 +1,28 @@
+.header-logo {
+    height: 70px;
+    background-color: #78A1BB;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 8px 0 rgb(82, 82, 82);
+}
+
+.logo-icon {
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin: 10px;
+}
+
+.logo-text {
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin: 10px;
+}
