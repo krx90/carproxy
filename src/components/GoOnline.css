@@ -1,0 +1,12 @@
+.connected-users {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.list-group {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
