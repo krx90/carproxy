@@ -1,7 +1,11 @@
 import MenuBar from './components/MenuBar';
+import GoOnline from './components/GoOnline';
 
 function App() {
-  return <div><MenuBar></MenuBar></div>
+  return <div>
+    <GoOnline></GoOnline>
+    <MenuBar></MenuBar>
+    </div>
 }
 
 
