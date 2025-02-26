@@ -32,6 +32,7 @@
     border-radius: 10px;
     padding: 5px;
     box-shadow: 0 0 8px 0 rgb(82, 82, 82);
+    background-color: #EBF5EE;
 }
 
 .settings-icon {
@@ -42,6 +43,7 @@
     border-radius: 10px;
     padding: 5px;
     box-shadow: 0 0 8px 0 rgb(82, 82, 82);
+    background-color: #EBF5EE;
 }
 
 .live-button-circle {
