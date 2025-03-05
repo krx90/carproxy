@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-IGNORE THE FOLDER BRAND. IT ONLY CONTAINS PICTURES OF LOGOS 
+IGNORE THE FOLDER "BRAND". IT ONLY CONTAINS PICTURES OF LOGOS 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
