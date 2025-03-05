@@ -1,6 +1,8 @@
 # React + TypeScript + Vite
 
 IGNORE THE FOLDER "BRAND". IT ONLY CONTAINS PICTURES OF LOGOS 
+LINK TO FIGMA PROTOTYPE:
+https://www.figma.com/design/7q3rT5fOudGjErIvRFSSP6/Carproxy-Prototype?node-id=0-1&t=3eDb8aOpZJQ3Vipt-1
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
