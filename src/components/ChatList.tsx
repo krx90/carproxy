@@ -7,7 +7,6 @@ function ChatList (){
     return (
         <div className="chat-page">
             <Fragment>
-
                     <div className="spaceholder"></div>
                     <h1 className="title">Chats</h1>
                     {ChatNames.length === 0 ? <p>No Chats Found</p> : null}

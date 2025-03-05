@@ -1,12 +1,23 @@
 import "./GoOnline.css";
 import image from "../assets/wifi.png";
+import image1 from "../assets/no-wifi.png";
 
-let IsOnline = true;
+let IsOnline = false;
 let ConnectedUsers = ["User1", "User2", "User3", "User4"];
-
 
 function GoOnline() {
   if (IsOnline) {
+    return (
+      <div className="page">
+        <p>Connect to speak with others...</p>
+        <button className="button">
+          <img src={image} alt="button-icon" className="button-icon" />
+          Connect
+        </button>
+      </div>
+      
+    );
+  } else {
     return (
       <div className="page">
         <div className="connected-users">
@@ -18,12 +29,11 @@ function GoOnline() {
           </ul>
         </div>
         <button className="button">
-          <img src={image} alt="button-icon" className="button-icon" />
-          Connect
-        </button>
+            <img src={image1} alt="button-icon" className="button-icon" />
+            Disconnect
+          </button>
       </div>
-    );
-  } else {
+    )
   }
 }
 
