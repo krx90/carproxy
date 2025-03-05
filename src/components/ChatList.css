@@ -1,0 +1,36 @@
+.chat-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spaceholder{
+    height: 110px;
+}
+
+.title{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 42px;
+}
+
+.chat-list{
+    margin-top: 20px;
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    margin-top: 20px;
+    width: 90%;
+}
+
+.chat-list li {
+    width: 100%;
+    background-color: #fff; /* White background for chat items */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for spacing */
+    margin-bottom: 10px; /* Space between chat items */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+}
