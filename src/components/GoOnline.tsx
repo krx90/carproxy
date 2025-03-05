@@ -3,14 +3,22 @@ import React, { useState } from "react";
 import image from "../assets/wifi.png";
 import image1 from "../assets/no-wifi.png";
 
-
-
 function GoOnline() {
-  const [IsOnline, setIsOnline] = useState(false);
-  let ConnectedUsers = ["User1", "User2", "User3", "User4"];
+  const [IsOnline, setIsOnline] = useState<boolean>(() => {
+    // Read from localStorage on initial render
+    const savedStatus = localStorage.getItem("isOnline");
+    return savedStatus === "true"; // Convert string to boolean
+  });
+
   const ToggleIsOnline = () => {
-    setIsOnline((prevStatus) => !prevStatus);
+    setIsOnline((prevStatus) => {
+      const newStatus = !prevStatus;
+      localStorage.setItem("isOnline", JSON.stringify(newStatus)); // Save to localStorage
+      return newStatus;
+    });
   };
+
+  let ConnectedUsers = ["User1", "User2", "User3", "User4"];
 
   if (IsOnline) {
     return (
@@ -43,7 +51,5 @@ function GoOnline() {
     );
   }
 }
-
-
 
 export default GoOnline;
